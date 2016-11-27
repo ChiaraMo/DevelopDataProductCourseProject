@@ -1,0 +1,38 @@
+Miles Per Gallon Analysis
+========================================================
+author: Chiara Mondino  
+date: 27/11/2016
+autosize: true
+
+Miles per Gallon Interactive Analysis
+========================================================
+
+This simple app will help you in the analysis of the mtcars data set included in R, to explore the relationship between a set of variables and miles per gallon (MPG) and to answer the following two questions:
+
+- Is an automatic or manual transmission better for MPG
+- Quantify the MPG difference between automatic and manual transmissions
+
+Data Information
+========================================================
+
+```{r}
+library(datasets)
+head(mtcars, 5)
+```
+
+More information about the data are available in the app.
+
+How can the app help you?
+========================================================
+The first tab of the app will show the box plot and the regression model details of each variable of the data set versus the miles per gallon, allowing you to interactively choose the variable to want to analyse. 
+
+In the secon tab, you will find the details of the best regression model calculated by the app considering all the avaialble variables in the data set. 
+
+Let's go and try it!
+========================================================
+
+[Miles per Gallon Analysis](https://cmondino.shinyapps.io/DevelopDataProduct_W4/)
+
+All the code needed to realize this app is available on my [github](https://github.com/Melegoz/DevelopDataProducts)
+
+Thank yoU!
